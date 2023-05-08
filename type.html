@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeJS</title>
+
+    <style>
+        .element{
+            color: red;
+        }
+
+        .typed-cursor {
+            color: red;
+}
+    </style>
+</head>
+<body>
+
+    <h1> I am a <span class="element"></span></h1>
+
+    
+   
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- <script src="type.js"></script> -->
+    <script>
+        var typed = new Typed('.element', {
+          strings: ['Web Developer', 'React Specialist'],
+          typeSpeed: 70,
+          backSpeed: 20,
+          startDelay: 1,
+          loop: true,
+        });
+      </script>
+</body>
+</html>
